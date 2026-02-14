@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cadeon — Restoring Movement. Rebuilding Confidence.</title>
+  <meta name="description" content="Cadeon is building the future of intelligent rehabilitation technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=DM+Mono:wght@300;400&family=Manrope:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursor-ring"></div>
+
+  <nav id="main-nav">
+    <a href="#" class="nav-logo">
+      <svg width="220" height="50" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#0891B2" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+        <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4" stroke-dasharray="4 4"/>
+        <text x="88" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="300" fill="#EDEDED" letter-spacing="4">cadeon</text>
+      </svg>
+    </a>
+    <div class="nav-right">
+      <a href="#about" class="nav-link">About</a>
+      <a href="#waitlist" class="nav-cta">Request Access</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-inner">
+      <p class="hero-eyebrow">Intelligent Rehabilitation Technology</p>
+      <div class="hero-logo-wrap">
+        <svg width="320" height="80" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#0891B2" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+          <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4" stroke-dasharray="4 4"/>
+          <text x="88" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="300" fill="#EDEDED" letter-spacing="4">cadeon</text>
+        </svg>
+      </div>
+      <h1 class="hero-tagline">Restoring movement.<br/><em>Rebuilding confidence.</em></h1>
+      <p class="hero-sub">We are building something that changes how people recover — from the first step after surgery to the last mile of rehabilitation.</p>
+      <div class="hero-divider"></div>
+    </div>
+    <div class="hero-scroll">
+      <div class="scroll-line"></div>
+      <span>Scroll</span>
+    </div>
+  </section>
+
+  <section class="visual-section" id="about">
+    <div class="visual-panel reveal">
+      <img src="assets/images/legs.png" alt="In Motion" />
+      <div class="visual-panel-overlay"></div>
+      <span class="visual-panel-num">01 / 02</span>
+      <span class="visual-panel-label">In Motion</span>
+    </div>
+    <div class="visual-panel reveal reveal-delay-2">
+      <img src="assets/images/pcb.png" alt="Precision Engineering" />
+      <div class="visual-panel-overlay"></div>
+      <span class="visual-panel-num">02 / 02</span>
+      <span class="visual-panel-label">Precision Engineering</span>
+    </div>
+  </section>
+
+  <section class="pillars">
+    <div class="pillar reveal">
+      <span class="pillar-num">01</span>
+      <h3 class="pillar-title">Adaptive Intelligence</h3>
+      <p class="pillar-body">Real-time sensor fusion reads the body's movement patterns, continuously adjusting support and resistance to match each stage of recovery — not just a preset protocol.</p>
+      <svg class="pillar-icon" width="80" height="80" viewBox="0 0 80 80" fill="none">
+        <circle cx="40" cy="40" r="38" stroke="#0891B2" stroke-width="1"/>
+        <path d="M12 40 C22 14 32 14 40 40 C48 66 58 66 68 40" stroke="#0891B2" stroke-width="2" stroke-linecap="round" fill="none"/>
+      </svg>
+    </div>
+    <div class="pillar reveal reveal-delay-2">
+      <span class="pillar-num">02</span>
+      <h3 class="pillar-title">Clinical Partnership</h3>
+      <p class="pillar-body">Surgeons and physiotherapists prescribe, monitor and adjust remotely. The data loop that was once broken between clinic visits is now always closed.</p>
+      <svg class="pillar-icon" width="80" height="80" viewBox="0 0 80 80" fill="none">
+        <path d="M20 60 L20 30 L40 12 L60 30 L60 60 Z" stroke="#0891B2" stroke-width="1"/>
+        <circle cx="40" cy="44" r="10" stroke="#0891B2" stroke-width="1"/>
+      </svg>
+    </div>
+    <div class="pillar reveal reveal-delay-3">
+      <span class="pillar-num">03</span>
+      <h3 class="pillar-title">Patient Confidence</h3>
+      <p class="pillar-body">Recovery is as much psychological as it is physical. Visible progress, guided milestones and intelligent protection rebuild the trust between patient and their own body.</p>
+      <svg class="pillar-icon" width="80" height="80" viewBox="0 0 80 80" fill="none">
+        <path d="M40 12 L44 32 L64 32 L48 46 L54 66 L40 54 L26 66 L32 46 L16 32 L36 32 Z" stroke="#0891B2" stroke-width="1"/>
+      </svg>
+    </div>
+  </section>
+
+  <div class="stats-bar">
+    <div class="stat-item reveal">
+      <div class="stat-val">400<sup>K+</sup></div>
+      <div class="stat-label">ACL surgeries per year in the US</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-1">
+      <div class="stat-val">35<sup>%</sup></div>
+      <div class="stat-label">of patients fail to complete rehabilitation</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-2">
+      <div class="stat-val">2<sup>×</sup></div>
+      <div class="stat-label">faster ROM recovery in our pilot study</div>
+    </div>
+    <div class="stat-item reveal reveal-delay-3">
+      <div class="stat-val">$17<sup>B</sup></div>
+      <div class="stat-label">annual global cost of ACL recovery failure</div>
+    </div>
+  </div>
+
+  <section class="waitlist-section" id="waitlist">
+    <div class="waitlist-inner">
+      <div class="waitlist-tag reveal">Early Access</div>
+      <h2 class="waitlist-heading reveal reveal-delay-1">Be among the<br/><em>first to know.</em></h2>
+      <p class="waitlist-sub reveal reveal-delay-2">We are in stealth. If you are a clinician, health system, or investor, we would like to hear from you.</p>
+      <form class="waitlist-form reveal reveal-delay-3" onsubmit="handleSubmit(event)">
+        <input type="email" id="email-input" placeholder="your@email.com" autocomplete="off" required />
+        <button type="submit">Request Access</button>
+      </form>
+      <p class="form-note reveal reveal-delay-4" id="form-note">No spam. No noise. Just signal.</p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-left">
+      <svg width="160" height="40" viewBox="0 0 320 80" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#0891B2" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+        <path d="M8 40 C18 10 28 10 40 40 C52 70 62 70 72 40" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4" stroke-dasharray="4 4"/>
+        <text x="88" y="52" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="40" font-weight="300" fill="#EDEDED" letter-spacing="4">cadeon</text>
+      </svg>
+      <span class="footer-copy">© 2026 Cadeon. All rights reserved.</span>
+    </div>
+    <div class="footer-right">
+      <a href="mailto:hello@cadeon.com" class="footer-link">Contact</a>
+      <a href="#" class="footer-link">Privacy</a>
+      <a href="#" class="footer-link">LinkedIn</a>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
